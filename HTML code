@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/news.css">
+    <title>News Website</title>
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <!-- header top -->
+        <div class="header-top">
+           <div class="container">
+               <div class="row">
+                   <div class="column-30">
+                       <div class="logo1">
+                          <a href="#"><img src="img/logo1.png" alt="logo" class="responsive-img"></a> 
+                       </div>
+                   </div>
+                   <div class="column-70">
+                        <div class="logo2">
+                            <a href="#"><img src="img/logo2.jpg" alt="advertisement" class="responsive-img"></a>
+                        </div>    
+                    </div>
+               </div>
+           </div> 
+        </div>
+
+        <!-- navigation -->
+        <nav>
+            <div class="container">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">National</a></li>
+                    <li><a href="#">International</a></li>
+                    <li><a href="#">Entertainment</a></li>
+                    <li><a href="#">Sports</a></li>
+                    <li><a href="#">Audio & Video</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- breaking news -->
+        <div class="breaking-news">
+            <div class="container">
+                <div class="row">
+                    <div class="column-20">
+                        <div class="update-left">UPDATES</div>
+                    </div>
+                    <div class="column-80">
+                        <div class="update-right">
+                            <marquee >Recent Update is just Scrolling and I watching parliament YouTube channel's Tutorial</marquee>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- content -->
+    <div class="content ptb-25">
+        <!-- headlines -->
+        <div class="container">
+            <div class="row">
+                <div class="column-60">
+                    <div class="main-headline" style="background-image: url('img/img1.jpg');">
+                        <div class="headline">Lorem ipsum dolor sit amet.</div>
+                    </div>
+                </div>
+                <div class="column-40">
+                    <div class="side-headline">
+
+                        <!-- SIDE NEWS 01 -->
+                       <div class="side-news">
+                           <div class="row">
+                               <div class="column-40">
+                                   <div class="side-news-image" style="background-image: url('img/i5.jpg');"></div>
+                               </div>
+                               <div class="column-60">
+                                   <div class="side-news-data">
+                                       <h2>Lorem ipsum dolor adipisicing.</h2>
+                                       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit recusandae dolore dignissimos!</p>
+                                   </div>
+                               </div>
+                           </div>
+                       </div> 
+
+                        <!-- SIDE NEWS 02 -->
+                       <div class="side-news">
+                           <div class="row">
+                               <div class="column-40">
+                                   <div class="side-news-image" style="background-image: url('img/i6.jpg');"></div>
+                               </div>
+                               <div class="column-60">
+                                   <div class="side-news-data">
+                                       <h2>Lorem ipsum dolor sit.</h2>
+                                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe minima cum porro placeat!</p>
+                                   </div>
+                               </div>
+                           </div>
+                       </div> 
+
+                        <!-- SIDE NEWS 03 -->
+                       <div class="side-news">
+                           <div class="row">
+                               <div class="column-40">
+                                   <div class="side-news-image" style="background-image: url('img/i7.jpg');"></div>
+                               </div>
+                               <div class="column-60">
+                                   <div class="side-news-data">
+                                       <h2>Lorem ipsum dolor sit amet. Lorem, ipsum.</h2>
+                                       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit recusandae dolore dignissimos!</p>
+                                   </div>
+                               </div>
+                           </div>
+                       </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container ptb-25">
+            <div class="row">
+                <div class="column-70">
+                    <!-- trending news -->
+                    <div class="sec-title">News on Trending</div>
+                    <div class="row">
+                        <div class="column-33">
+                            <div class="news">
+                                <div class="news-image" style="background-image: url('img/i8.jpg');"></div>
+                                <h2><a href="#">Lorem ipsum dolor</a></h2>
+                                <ul class="category">
+                                    <li>National</li>
+                                    <li>International</li>
+                                </ul>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus laudantium odio a omnis labore incidunt illo! Nesciunt enim fugiat libero quibusdam cum.</p>
+                                <a href="#" class="read-more">Read More &rarr;</a>
+                            </div>
+                        </div>
+                        <div class="column-33">
+                            <div class="news">
+                                <div class="news-image" style="background-image: url('img/i9.jpg');"></div>
+                                <h2><a href="#">Lorem ipsum dolor</a></h2>
+                                <ul class="category">
+                                    <li>National</li>
+                                    <li>International</li>
+                                </ul>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus laudantium odio a omnis labore incidunt illo! Nesciunt enim fugiat libero quibusdam cum.</p>
+                                <a href="#" class="read-more">Read More &rarr;</a>
+                            </div>
+                        </div>
+                        <div class="column-33">
+                            <div class="news">
+                                <div class="news-image" style="background-image: url('img/i10.jpg');"></div>
+                                <h2><a href="#">Lorem ipsum dolor</a></h2>
+                                <ul class="category">
+                                    <li>National</li>
+                                    <li>International</li>
+                                </ul>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus laudantium odio a omnis labore incidunt illo! Nesciunt enim fugiat libero quibusdam cum.</p>
+                                <a href="#" class="read-more">Read More &rarr;</a>
+                            </div>
+                        </div>
+                        <div class="column-33">
+                            <div class="news">
+                                <div class="news-image" style="background-image: url('img/i11.jpg');"></div>
+                                <h2><a href="#">Lorem ipsum dolor</a></h2>
+                                <ul class="category">
+                                    <li>National</li>
+                                    <li>International</li>
+                                </ul>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus laudantium odio a omnis labore incidunt illo! Nesciunt enim fugiat libero quibusdam cum.</p>
+                                <a href="#" class="read-more">Read More &rarr;</a>
+                            </div>
+                        </div>
+                        <div class="column-33">
+                            <div class="news">
+                                <div class="news-image" style="background-image: url('img/i12.jpg');"></div>
+                                <h2><a href="#">Lorem ipsum dolor</a></h2>
+                                <ul class="category">
+                                    <li>National</li>
+                                    <li>International</li>
+                                </ul>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus laudantium odio a omnis labore incidunt illo! Nesciunt enim fugiat libero quibusdam cum.</p>
+                                <a href="#" class="read-more">Read More &rarr;</a>
+                            </div>
+                        </div>
+                        <div class="column-33">
+                            <div class="news">
+                                <div class="news-image" style="background-image: url('img/i13.jpg');"></div>
+                                <h2><a href="#">Lorem ipsum dolor</a></h2>
+                                <ul class="category">
+                                    <li>National</li>
+                                    <li>International</li>
+                                </ul>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus laudantium odio a omnis labore incidunt illo! Nesciunt enim fugiat libero quibusdam cum.</p>
+                                <a href="#" class="read-more">Read More &rarr;</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column-30">
+                     <!-- sidebar -->
+                     <div class="sidebar">
+                         <div class="sidebar-widget">
+                             <div class="sec-title">Category</div>
+                             <ul>
+                                 <li><a href="#">National</a></li>
+                                 <li><a href="#">International</a></li>
+                                 <li><a href="#">Entertainment</a></li>
+                                 <li><a href="#">Sports</a></li>
+                                 <li><a href="#">Video & Audio</a></li>
+                             </ul>
+                         </div>
+                         <div class="sidebar-widget">
+                             <div class="sec-title">Recent News</div>
+                             <ul>
+                                 <li><a href="#">National Recent News for parliament News Theme</a></li>
+                                 <li><a href="#">International Recent News for parliament News Theme</a></li>
+                                 <li><a href="#">Entertainment Recent News for parliament News Theme</a></li>
+                                 <li><a href="#">Sports Recent News for parliament News Theme</a></li>
+                                 <li><a href="#">Video & Audio Recent News for parliament News Theme</a></li>
+                             </ul>
+                         </div>
+                         <div class="sidebar-widget">
+                             <a href="#"><img src="img/logo2.jpg" alt="advertisement" class="responsive-image"></a>
+                         </div>
+                     </div>
+                </div>
+            </div>
+        </div>
+       
+        <!-- section 01 -->
+        <div class="news-section">
+            <div class="container">
+                    <div class="sec-title">National</div>
+                <div class="row">
+                    <div class="column-20">
+                        <div class="news">
+                            <div class="news-image" style="background-image: url('img/i14.jpg');"></div>
+                            <h2><a href="#">Sweet Creative Work</a></h2>
+                        </div>
+                    </div>
+                    <div class="column-20">
+                        <div class="news">
+                            <div class="news-image" style="background-image: url('img/i15.jpg');"></div>
+                            <h2><a href="#">Sweet Creative Work</a></h2>
+                        </div>
+                    </div>
+                    <div class="column-20">
+                        <div class="news">
+                            <div class="news-image" style="background-image: url('img/i16.jpg');"></div>
+                            <h2><a href="#">Sweet Creative Work</a></h2>
+                        </div>
+                    </div>
+                    <div class="column-20">
+                        <div class="news">
+                            <div class="news-image" style="background-image: url('img/i17.jpg');"></div>
+                            <h2><a href="#">Sweet Creative Work</a></h2>
+                        </div>
+                    </div>
+                    <div class="column-20">
+                        <div class="news">
+                            <div class="news-image" style="background-image: url('img/i18.jpg');"></div>
+                            <h2><a href="#">Sweet Creative Work</a></h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- section 02 -->
+
+        <div class="news-section">
+            <div class="container">
+                    <div class="sec-title">International</div>
+                <div class="row">
+                    <div class="column-20">
+                        <div class="news">
+                            <div class="news-image" style="background-image: url('img/i19.jpg');"></div>
+                            <h2><a href="#">Nesciunt enim fugiat libero</a></h2>
+                        </div>
+                    </div>
+                    <div class="column-20">
+                        <div class="news">
+                            <div class="news-image" style="background-image: url('img/i12.jpg');"></div>
+                            <h2><a href="#">Nesciunt enim fugiat libero</a></h2>
+                        </div>
+                    </div>
+                    <div class="column-20">
+                        <div class="news">
+                            <div class="news-image" style="background-image: url('img/i11.jpg');"></div>
+                            <h2><a href="#">Nesciunt enim fugiat libero</a></h2>
+                        </div>
+                    </div>
+                    <div class="column-20">
+                        <div class="news">
+                            <div class="news-image" style="background-image: url('img/i20.jpg');"></div>
+                            <h2><a href="#">Nesciunt enim fugiat libero</a></h2>
+                        </div>
+                    </div>
+                    <div class="column-20">
+                        <div class="news">
+                            <div class="news-image" style="background-image: url('img/i21.jpg');"></div>
+                            <h2><a href="#">Nesciunt enim fugiat libero</a></h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <footer>
+        <div class="container ptb-25">
+            <div class="row">
+                <div class="column-30">
+                    <!-- logo and social -->
+                    <div class="footer-logo">
+                        <img src="img/slogo0.jpg" alt="" class="responsive-image">
+                    </div>
+                    <ul class="footer-social">
+                        <li><a href="#"><img src="img/slogo1.jpg" alt="twiter"></a></li>
+                        <li><a href="#"><img src="img/slogo2.jpg" alt="facebook"></a></li>
+                        <li><a href="#"><img src="img/slogo3.jpg" alt="instagram"></a></li>
+                        <li><a href="#"><img src="img/slogo4.jpg" alt="youtube"></a></li>
+                    </ul>
+                    <address>
+                        PATNA CITY, PATNA, BIHAR - 800008
+                    </address>
+                </div>
+                <div class="column-20">
+                    <!-- category -->
+                    <div class="sec-title">Category</div>
+                    <ul class="footer-cat">
+                        <li><a href="#">National</a></li>
+                        <li><a href="#">International</a></li>
+                        <li><a href="#">Entertainment</a></li>
+                        <li><a href="#">Sports</a></li>
+                        <li><a href="#">Video & Audio</a></li>
+                    </ul> 
+                </div>
+                <div class="column-20">
+                    <!-- recent news -->
+                    <div class="sec-title">Trending News</div>
+                    <ul class="footer-cat">
+                        <li><a href="#">National Recent News for parliament News Theme</a></li>
+                        <li><a href="#">International Recent News for parliament News Theme</a></li>
+                        <li><a href="#">Entertainment Recent News for parliament News Theme</a></li>
+                        <li><a href="#">Sports Recent News for parliament News Theme</a></li>
+                        <li><a href="#">Video & Audio Recent News for parliament News Theme</a></li>
+                    </ul> 
+                </div>
+                <div class="column-30">
+                    <!-- photo gallery -->
+                    <div class="sec-title">Photo Gallery</div>
+                    <ul class="footer-gallery">
+                        <li class="column-33"><img src="img/i5.jpg" alt="Image not found"></li>
+                        <li class="column-33"><img src="img/i6.jpg" alt="Image not found"></li>
+                        <li class="column-33"><img src="img/i15.jpg" alt="Image not found"></li>
+                        <li class="column-33"><img src="img/i8.jpg" alt="Image not found"></li>
+                        <li class="column-33"><img src="img/i9.jpg" alt="Image not found"></li>
+                        <li class="column-33"><img src="img/i10.jpg" alt="Image not found"></li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <a href="#">www.parliamentnews.com</a> NEWS WEBSITE &copy; 2021
+        </div>
+    </footer>
+        
+
+
+
+</body>
+</html>
